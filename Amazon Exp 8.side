@@ -1,0 +1,222 @@
+{
+  "id": "d45414f5-0a9a-4da9-98ed-b69979d8b8da",
+  "version": "2.0",
+  "name": "Amazon",
+  "url": "https://www.amazon.com/",
+  "tests": [{
+    "id": "ed43feaf-a9a4-422e-a185-7352294a0a0a",
+    "name": "Untitled",
+    "commands": [{
+      "id": "41e663e8-7036-45bd-b93a-72687f6ca518",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6f2eb1f-2eed-45db-8479-ff4d2f35501f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "650x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b6486d1-beca-4732-838a-64dc922f2de1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#rbANCpY5JzqRuLjPOipnQg img",
+      "targets": [
+        ["css=#rbANCpY5JzqRuLjPOipnQg img", "css:finder"],
+        ["xpath=(//img[@alt='Shop Computers and Accessories'])[2]", "xpath:img"],
+        ["xpath=//div[@id='rbANCpY5JzqRuLjPOipnQg']/div/div/span/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/span/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d214c14e-f210-4e7d-b34f-4f995c730491",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#rbANCpY5JzqRuLjPOipnQg img",
+      "targets": [
+        ["css=#rbANCpY5JzqRuLjPOipnQg img", "css:finder"],
+        ["xpath=(//img[@alt='Shop Computers and Accessories'])[2]", "xpath:img"],
+        ["xpath=//div[@id='rbANCpY5JzqRuLjPOipnQg']/div/div/span/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div/span/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b109a910-a0af-468b-84f1-0b10f32550d0",
+    "name": "Login",
+    "commands": [{
+      "id": "fd209f5b-8bcf-4a6d-b02a-18a1cf9859f4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b67a6176-3712-46d6-b0c6-dacd51639b1a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "650x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a46e4ed-661a-4a7a-91aa-b7ba3dc20b4c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08effe35-7bc3-45fd-98c6-8ab07156b32b",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "626d22f5-1e4e-455e-86a7-89590e57e370",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cropped-image-map-size:nth-child(2) img",
+      "targets": [
+        ["css=.cropped-image-map-size:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Shop Computers and Accessories']", "xpath:img"],
+        ["xpath=//div[@id='yctnN5PAEkkbW8xP3qwm5w']/div/div/span/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/span/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c51b36d-1db8-473b-b16c-fe66fd524b3b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cropped-image-map-size:nth-child(2) img",
+      "targets": [
+        ["css=.cropped-image-map-size:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Shop Computers and Accessories']", "xpath:img"],
+        ["xpath=//div[@id='yctnN5PAEkkbW8xP3qwm5w']/div/div/span/a/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/span/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab2affd5-fbd0-47f8-a3be-664ca24904d1",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Key"
+    }, {
+      "id": "f7370475-6b34-4a44-b031-6d861a0edc38",
+      "comment": "",
+      "command": "click",
+      "target": "css=#issDiv0 > .s-heavy:nth-child(2)",
+      "targets": [
+        ["css=#issDiv0 > .s-heavy:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='issDiv0']/span[2]", "xpath:idRelative"],
+        ["xpath=//div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'board piano')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90b78350-6793-4880-ad7c-ae2ea8f62507",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s-include-content-margin .a-size-large > span",
+      "targets": [
+        ["css=.s-include-content-margin .a-size-large > span", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/span[3]/div[2]/div/div/span/div/div/div/div/div/div/h5/span", "xpath:idRelative"],
+        ["xpath=//h5/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77f5d7e2-60d6-4c85-b13b-9488401b8b99",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.s-include-content-margin .a-size-large > span",
+      "targets": [
+        ["css=.s-include-content-margin .a-size-large > span", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/span[3]/div[2]/div/div/span/div/div/div/div/div/div/h5/span", "xpath:idRelative"],
+        ["xpath=//h5/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba76bec4-8d13-4b2e-a577-c5120dc08588",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.s-include-content-margin .a-size-large > span",
+      "targets": [
+        ["css=.s-include-content-margin .a-size-large > span", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/span[3]/div[2]/div/div/span/div/div/div/div/div/div/h5/span", "xpath:idRelative"],
+        ["xpath=//h5/span", "xpath:position"]
+      ],
+      "value": "Shop by number of keyboard keys"
+    }, {
+      "id": "238c3bd9-00ba-431c-8d5d-1e0bd02d3611",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "680c46de-3469-4a1f-baf7-ef08c819405b",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "camera"
+    }, {
+      "id": "ca468ca7-8fd8-4d26-84ba-03e33b30f392",
+      "comment": "",
+      "command": "click",
+      "target": "id=issDiv4",
+      "targets": [
+        ["id=issDiv4", "id"],
+        ["css=#issDiv4", "css:finder"],
+        ["xpath=//div[@id='issDiv4']", "xpath:attributes"],
+        ["xpath=//div[@id='suggestions']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5e02681f-97a0-4598-bed9-e416e116f89e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ed43feaf-a9a4-422e-a185-7352294a0a0a"]
+  }],
+  "urls": ["https://www.amazon.com/"],
+  "plugins": []
+}
